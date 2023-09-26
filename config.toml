@@ -1,0 +1,54 @@
+[Eth]
+NetworkId = 6666
+SyncMode = "full"
+TxLookupLimit = 2350000
+LightPeers = 100
+UltraLightFraction = 75
+
+[Eth.Miner]
+GasCeil = 525000000
+GasPrice = 5000000000
+Recommit = 3000000000
+
+[Eth.TxPool]
+Locals = []
+NoLocals = true
+Journal = "transactions.rlp"
+Rejournal = 3600000000000
+PriceLimit = 5000000000
+PriceBump = 10
+AccountSlots = 16
+GlobalSlots = 5120
+AccountQueue = 64
+GlobalQueue = 1024
+Lifetime = 10800000000000
+
+[Eth.GPO]
+Blocks = 20
+Percentile = 60
+
+[Node]
+DataDir = "chain"
+InsecureUnlockAllowed = true
+IPCPath = "geth.ipc"
+HTTPHost = "127.0.0.1"
+HTTPPort = 8545
+HTTPCors = ["*"]
+HTTPVirtualHosts = ["*"]
+HTTPModules = ["eth", "net", "web3" ]
+WSHost = "*"
+WSPort = 8546
+WSModules = ["net", "web3", "eth"]
+
+[Node.P2P]
+MaxPeers = 50
+NoDiscovery = false
+BootstrapNodes = ["enode://8e2c76cefde25ecb3de374700c35a23586939271972a374899d919603e6d79b86e432cb7b1def6e054f63688f10f6d7e1e4d995e3666f8916834d29081d5435b@10.43.66.100:0?discport=36666"]
+StaticNodes = []
+TrustedNodes = []
+
+[Node.HTTPTimeouts]
+ReadTimeout = 30000000000
+ReadHeaderTimeout = 30000000000
+WriteTimeout = 30000000000
+IdleTimeout = 120000000000
