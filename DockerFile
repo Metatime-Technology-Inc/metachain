@@ -1,0 +1,7 @@
+FROM  --platform=linux/amd64 ubuntu:18.04
+RUN apt-get update
+RUN apt-get install -y software-properties-common
+WORKDIR /home/services/geth
+COPY ./geth /home/services/geth
+RUN chmod +x /home/services/geth/run.sh
+ENTRYPOINT ["/home/services/geth/run.sh"]

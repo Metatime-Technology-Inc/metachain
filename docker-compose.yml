@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  rpc:
+    deploy:
+      restart_policy:
+          condition: on-failure
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+    build:
+      context: .
+      dockerfile: DockerFile

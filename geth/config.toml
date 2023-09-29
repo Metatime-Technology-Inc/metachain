@@ -1,0 +1,54 @@
+[Eth]
+NetworkId = 6660
+SyncMode = "full"
+TxLookupLimit = 2350000
+LightPeers = 100
+UltraLightFraction = 75
+TrieTimeout = 3600000000000
+
+[Eth.Miner]
+GasFloor = 0
+GasCeil = 525000000
+GasPrice = 5000000000
+Recommit = 3000000000
+
+[Eth.TxPool]
+Locals = []
+NoLocals = false
+Journal = "transactions.rlp"
+Rejournal = 3600000000000
+PriceLimit = 5000000000
+PriceBump = 10
+AccountSlots = 16
+GlobalSlots = 5120
+AccountQueue = 64
+GlobalQueue = 1024
+Lifetime = 10800000000000
+
+[Eth.GPO]
+Blocks = 20
+Percentile = 60
+
+[Node]
+InsecureUnlockAllowed = true
+IPCPath = "geth.ipc"
+HTTPHost = ""
+HTTPPort = 8545
+HTTPVirtualHosts = ["localhost"]
+HTTPModules = ["net", "web3", "eth"]
+AuthAddr = "localhost"
+AuthPort = 8551
+AuthVirtualHosts = ["localhost"]
+WSHost = ""
+WSPort = 8546
+WSModules = ["net", "web3", "eth"]
+
+[Node.P2P]
+MaxPeers = 50
+NoDiscovery = false
+BootstrapNodes = ["enode://b39e91d084160378d75695a7c21cf594085838057450f0af586a0592f301134d5ded853ee99fcadaa4f5a2b9306ce1f787dcf1ba6ee169bd3f5103d82a854153@34.159.4.15:36660"]
+BootstrapNodesV5 = []
+StaticNodes = []
+TrustedNodes = []
+ListenAddr = ":36660"
+EnableMsgEvents = false
