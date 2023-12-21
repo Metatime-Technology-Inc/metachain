@@ -1,0 +1,181 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="782pt" height="624pt" viewBox="0.00 0.00 782.14 624.00">
+<g id="graph0" class="graph" transform="translate(4,620) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-620 778.14,-620 778.14,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterTokenDistributor">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 754.14,-8 754.14,-8 760.14,-8 766.14,-14 766.14,-20 766.14,-20 766.14,-459 766.14,-459 766.14,-465 760.14,-471 754.14,-471 754.14,-471 20,-471 20,-471 14,-471 8,-465 8,-459 8,-459 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="387.07" y="-454.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TokenDistributor</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="39.86,-479 39.86,-608 397.42,-608 397.42,-479 39.86,-479" style=""/>
+<text text-anchor="middle" x="218.64" y="-591.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- TokenDistributor.&lt;Constructor&gt; -->
+<g id="node1" class="node" pointer-events="visible" data-name="TokenDistributor.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="112.86" cy="-420" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="112.86" y="-415.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- TokenDistributor._disableInitializers -->
+<g id="node11" class="node" pointer-events="visible" data-name="TokenDistributor._disableInitializers">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="362.42" cy="-420" rx="84.52" ry="18" style=""/>
+<text text-anchor="middle" x="362.42" y="-415.8" font-family="Times,serif" font-size="14.00" style="">_disableInitializers</text>
+</g>
+<!-- TokenDistributor.&lt;Constructor&gt;&#45;&gt;TokenDistributor._disableInitializers -->
+<g id="edge1" class="edge" data-name="TokenDistributor.&lt;Constructor&gt;-&gt;TokenDistributor._disableInitializers">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M181.84,-420C207.17,-420 236.44,-420 263.91,-420" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="263.77,-423.5 273.77,-420 263.77,-416.5 263.77,-423.5" style=""/>
+</g>
+<!-- TokenDistributor.&lt;Receive Ether&gt; -->
+<g id="node2" class="node" pointer-events="visible" data-name="TokenDistributor.&lt;Receive Ether&gt;">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="112.86" cy="-250" rx="76.21" ry="18" style=""/>
+<text text-anchor="middle" x="112.86" y="-245.8" font-family="Times,serif" font-size="14.00" style="">&lt;Receive Ether&gt;</text>
+</g>
+<!-- TokenDistributor._msgSender -->
+<g id="node12" class="node" pointer-events="visible" data-name="TokenDistributor._msgSender">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="362.42" cy="-223" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="362.42" y="-218.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- TokenDistributor.&lt;Receive Ether&gt;&#45;&gt;TokenDistributor._msgSender -->
+<g id="edge2" class="edge" data-name="TokenDistributor.&lt;Receive Ether&gt;-&gt;TokenDistributor._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M184.14,-242.34C218.24,-238.62 259.04,-234.17 292.9,-230.47" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="292.94,-233.99 302.5,-229.43 292.18,-227.03 292.94,-233.99" style=""/>
+</g>
+<!-- TokenDistributor.isParamsValid -->
+<g id="node3" class="node" pointer-events="visible" data-name="TokenDistributor.isParamsValid">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="185.69,-300.54 185.69,-315.46 143.03,-326 82.7,-326 40.04,-315.46 40.04,-300.54 82.7,-290 143.03,-290 185.69,-300.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="189.69,-297.41 189.69,-318.59 143.52,-330 82.21,-330 36.04,-318.59 36.04,-297.41 82.21,-286 143.52,-286 189.69,-297.41" style=""/>
+<text text-anchor="middle" x="112.86" y="-303.8" font-family="Times,serif" font-size="14.00" style="">isParamsValid</text>
+</g>
+<!-- TokenDistributor.initialize -->
+<g id="node4" class="node" pointer-events="visible" data-name="TokenDistributor.initialize">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="112.86" cy="-366" rx="44.64" ry="18" style=""/>
+<text text-anchor="middle" x="112.86" y="-361.8" font-family="Times,serif" font-size="14.00" style="">initialize</text>
+</g>
+<!-- TokenDistributor._transferOwnership -->
+<g id="node13" class="node" pointer-events="visible" data-name="TokenDistributor._transferOwnership">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="362.42" cy="-366" rx="87.96" ry="18" style=""/>
+<text text-anchor="middle" x="362.42" y="-361.8" font-family="Times,serif" font-size="14.00" style="">_transferOwnership</text>
+</g>
+<!-- TokenDistributor.initialize&#45;&gt;TokenDistributor._transferOwnership -->
+<g id="edge3" class="edge" data-name="TokenDistributor.initialize-&gt;TokenDistributor._transferOwnership">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M158.98,-366C187.3,-366 225,-366 260.18,-366" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="259.98,-369.5 269.98,-366 259.98,-362.5 259.98,-369.5" style=""/>
+</g>
+<!-- TokenDistributor.setClaimableAmounts -->
+<g id="node5" class="node" pointer-events="visible" data-name="TokenDistributor.setClaimableAmounts">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="112.86" cy="-196" rx="96.73" ry="18" style=""/>
+<text text-anchor="middle" x="112.86" y="-191.8" font-family="Times,serif" font-size="14.00" style="">setClaimableAmounts</text>
+</g>
+<!-- TokenDistributor.claim -->
+<g id="node6" class="node" pointer-events="visible" data-name="TokenDistributor.claim">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="112.86" cy="-142" rx="32.47" ry="18" style=""/>
+<text text-anchor="middle" x="112.86" y="-137.8" font-family="Times,serif" font-size="14.00" style="">claim</text>
+</g>
+<!-- TokenDistributor.calculateClaimableAmount -->
+<g id="node9" class="node" pointer-events="visible" data-name="TokenDistributor.calculateClaimableAmount">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="362.42" cy="-142" rx="116.88" ry="18" style=""/>
+<text text-anchor="middle" x="362.42" y="-137.8" font-family="Times,serif" font-size="14.00" style="">calculateClaimableAmount</text>
+</g>
+<!-- TokenDistributor.claim&#45;&gt;TokenDistributor.calculateClaimableAmount -->
+<g id="edge5" class="edge" data-name="TokenDistributor.claim-&gt;TokenDistributor.calculateClaimableAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M146.74,-142C168.93,-142 199.82,-142 231.25,-142" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="231.23,-145.5 241.23,-142 231.23,-138.5 231.23,-145.5" style=""/>
+</g>
+<!-- TokenDistributor.claim&#45;&gt;TokenDistributor._msgSender -->
+<g id="edge4" class="edge" data-name="TokenDistributor.claim-&gt;TokenDistributor._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M143.81,-149.88C162.8,-155.01 187.82,-162.02 209.73,-169 243.64,-179.8 281.34,-193.21 310.67,-203.97" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="309.26,-207.18 319.85,-207.35 311.68,-200.61 309.26,-207.18" style=""/>
+</g>
+<!-- TokenDistributor.sweep -->
+<g id="node7" class="node" pointer-events="visible" data-name="TokenDistributor.sweep">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="112.86" cy="-88" rx="35.34" ry="18" style=""/>
+<text text-anchor="middle" x="112.86" y="-83.8" font-family="Times,serif" font-size="14.00" style="">sweep</text>
+</g>
+<!-- TokenDistributor.owner -->
+<g id="node14" class="node" pointer-events="visible" data-name="TokenDistributor.owner">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="362.42" cy="-88" rx="35.34" ry="18" style=""/>
+<text text-anchor="middle" x="362.42" y="-83.8" font-family="Times,serif" font-size="14.00" style="">owner</text>
+</g>
+<!-- TokenDistributor.sweep&#45;&gt;TokenDistributor.owner -->
+<g id="edge6" class="edge" data-name="TokenDistributor.sweep-&gt;TokenDistributor.owner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M148.55,-83.14C191.73,-80.83 265.68,-80.64 314.05,-82.56" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="313.79,-86.05 323.95,-83.01 314.12,-79.06 313.79,-86.05" style=""/>
+</g>
+<!-- TokenDistributor.sweep&#45;&gt;TokenDistributor.owner -->
+<g id="edge7" class="edge" data-name="TokenDistributor.sweep-&gt;TokenDistributor.owner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M148.55,-92.86C191.73,-95.17 265.68,-95.36 314.05,-93.44" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="314.12,-96.94 323.95,-92.99 313.79,-89.95 314.12,-96.94" style=""/>
+</g>
+<!-- TokenDistributor.updatePoolParams -->
+<g id="node8" class="node" pointer-events="visible" data-name="TokenDistributor.updatePoolParams">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="112.86" cy="-34" rx="82.83" ry="18" style=""/>
+<text text-anchor="middle" x="112.86" y="-29.8" font-family="Times,serif" font-size="14.00" style="">updatePoolParams</text>
+</g>
+<!-- TokenDistributor._calculateClaimableAmount -->
+<g id="node10" class="node" pointer-events="visible" data-name="TokenDistributor._calculateClaimableAmount">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="636.62" cy="-142" rx="121.53" ry="18" style=""/>
+<text text-anchor="middle" x="636.62" y="-137.8" font-family="Times,serif" font-size="14.00" style="">_calculateClaimableAmount</text>
+</g>
+<!-- TokenDistributor.calculateClaimableAmount&#45;&gt;TokenDistributor._calculateClaimableAmount -->
+<g id="edge8" class="edge" data-name="TokenDistributor.calculateClaimableAmount-&gt;TokenDistributor._calculateClaimableAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M480.44,-142C487.28,-142 494.2,-142 501.1,-142" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="500.91,-145.5 510.91,-142 500.91,-138.5 500.91,-145.5" style=""/>
+</g>
+<!-- key -->
+<g id="node15" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="177.86,-575 47.86,-575 47.86,-487 177.86,-487 177.86,-575" style=""/>
+<text text-anchor="start" x="97.5" y="-556.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="93.61" y="-536.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="71.07" y="-516.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="57.47" y="-496.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node16" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="389.42,-575 335.42,-575 335.42,-487 389.42,-487 389.42,-575" style=""/>
+<text text-anchor="start" x="352.42" y="-556.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="352.42" y="-536.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="350.42,-511 350.42,-531 375.42,-531 375.42,-511 350.42,-511" style=""/>
+<text text-anchor="start" x="352.42" y="-516.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="352.42,-493 352.42,-509 373.42,-509 373.42,-493 352.42,-493" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge9" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M170.86,-561C245.73,-561 267.62,-561 336.48,-561" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="336.39,-564.5 346.39,-561 336.39,-557.5 336.39,-564.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge10" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M170.86,-541C245.73,-541 267.62,-541 336.48,-541" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="336.39,-544.5 346.39,-541 336.39,-537.5 336.39,-544.5" style=""/>
+</g>
+</g>
+</svg>

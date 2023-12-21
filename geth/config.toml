@@ -1,5 +1,5 @@
 [Eth]
-NetworkId = 6660
+NetworkId = 571
 SyncMode = "full"
 TxLookupLimit = 2350000
 LightPeers = 100
@@ -8,8 +8,8 @@ TrieTimeout = 3600000000000
 
 [Eth.Miner]
 GasFloor = 0
-GasCeil = 525000000
-GasPrice = 5000000000
+GasCeil = 53991000
+GasPrice = 5000000000000
 Recommit = 3000000000
 
 [Eth.TxPool]
@@ -17,7 +17,7 @@ Locals = []
 NoLocals = false
 Journal = "transactions.rlp"
 Rejournal = 3600000000000
-PriceLimit = 5000000000
+PriceLimit = 5000000000000
 PriceBump = 10
 AccountSlots = 16
 GlobalSlots = 5120
@@ -30,7 +30,7 @@ Blocks = 20
 Percentile = 60
 
 [Node]
-InsecureUnlockAllowed = true
+InsecureUnlockAllowed = false
 IPCPath = "geth.ipc"
 HTTPHost = ""
 HTTPPort = 8545
@@ -46,9 +46,9 @@ WSModules = ["net", "web3", "eth"]
 [Node.P2P]
 MaxPeers = 50
 NoDiscovery = false
-BootstrapNodes = ["enode://b39e91d084160378d75695a7c21cf594085838057450f0af586a0592f301134d5ded853ee99fcadaa4f5a2b9306ce1f787dcf1ba6ee169bd3f5103d82a854153@34.159.4.15:36660"]
+BootstrapNodes = []
 BootstrapNodesV5 = []
-StaticNodes = ["enode://1cf4eb8a963584f161a49d753ede8183750b833f0b8bbd686621cea9860be8be89c9cc270d9b524f2f0842c4cb371e028f1563e2bb46e2ee2cddffc6820f6aa2@34.159.248.70:36660","enode://e0b39a3e3f76304b819ce876368bdd1f0bdbe17269ea932605c6f4555062567c71cd2efccaa784672de842f9c87f7ef64a4fa59816fd3e66d406dcdee28d4394@34.93.229.106:36660","enode://cd4dd22dc6bc09d850ac7df6d941da277be43c93bb876df73a09a17e8639eed11b084f31a6ea9f0d1463fba9676f071cf088797e2c692bab0c741df4fda04ac7@35.245.99.99:36660"]
+StaticNodes = ["enode://8a68725644b5059684ca84a002edf5c02bee1c75fb44b2cae56daaa31a8549e422cd427b32156b4cfee35d66777b8898ae5cca0b66ad2e26d5abfe426b5c7ed7@101.44.39.247:30571", "enode://eeea9f42807bfec99d24bf22481b5a3e3fe2c067b521c75404f8fbbf7ff210e765cec45632ee2d3dc9fc89d2eeaf691d0136cc537a988867eb4b886cc61daecf@101.44.36.124:30571", "enode://17a94f4efbaa239e39b8e313be34f291916f759fa7936515cb7cabc3645f91c0603e1915c93273a5cca1daf8dc9c5370bdc5ae4b8d023fccd7ba2f73ee7c5e38@101.44.37.126:30571"]
 TrustedNodes = []
-ListenAddr = ":36660"
+ListenAddr = ":30571"
 EnableMsgEvents = false
