@@ -9,7 +9,7 @@ TrieTimeout = 3600000000000
 [Eth.Miner]
 GasFloor = 0
 GasCeil = 53991000
-GasPrice = 5000000000000
+GasPrice = 99000000000
 Recommit = 3000000000
 
 [Eth.TxPool]
