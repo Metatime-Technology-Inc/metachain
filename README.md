@@ -11,7 +11,7 @@ Download the pre-build binaries (Follow the instructions below):
 
 ### Linux
 ```bash
-$ wget https://github.com/Metatime-Technology-Inc/metachain/raw/v2.2/geth/geth_linux
+$ wget https://github.com/Metatime-Technology-Inc/metachain/raw/v2.3/geth/geth_linux
 $ mv geth_linux geth
 $ chmod -v u+x geth
 ```
@@ -19,8 +19,8 @@ $ chmod -v u+x geth
 Download the config files (Download genesis.json and config.toml):
 
 ```bash
-$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.2/geth/config.toml
-$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.2/geth/genesis.json
+$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.3/geth/config.toml
+$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.3/geth/genesis.json
 ```
 
 Write genesis state locally:
