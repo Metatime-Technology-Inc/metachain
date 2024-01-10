@@ -11,7 +11,7 @@ Download the pre-build binaries (Follow the instructions below):
 
 ### Linux
 ```bash
-$ wget https://github.com/Metatime-Technology-Inc/metachain/raw/v2.4/geth/geth_linux
+$ wget https://github.com/Metatime-Technology-Inc/metachain/raw/v2.3/geth/geth_linux
 $ mv geth_linux geth
 $ chmod -v u+x geth
 ```
