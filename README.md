@@ -19,8 +19,8 @@ $ chmod -v u+x geth
 Download the config files (Download genesis.json and config.toml):
 
 ```bash
-$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.3/geth/config.toml
-$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.3/geth/genesis.json
+$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.4/geth/config.toml
+$ wget https://raw.githubusercontent.com/Metatime-Technology-Inc/metachain/v2.4/geth/genesis.json
 ```
 
 Write genesis state locally:
