@@ -1,0 +1,10 @@
+[
+    {
+        "title": "MetaChain",
+        "url": "https://explorer.metatime.com",
+        "group": "Mainnets",
+        "icon": "https://metatime.com/assets/img/logo/favicon.svg",
+        "isActive": true,
+        "invertIconInDarkMode": true
+    }
+]

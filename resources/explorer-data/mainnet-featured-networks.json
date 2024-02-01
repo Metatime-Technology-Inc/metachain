@@ -1,0 +1,10 @@
+[
+    {
+        "title": "MetaChain Istanbul",
+        "url": "https://istanbul-explorer.metachain.dev",
+        "group": "Testnets",
+        "icon": "https://metatime.com/assets/img/logo/favicon.svg",
+        "isActive": true,
+        "invertIconInDarkMode": true
+    }
+]
