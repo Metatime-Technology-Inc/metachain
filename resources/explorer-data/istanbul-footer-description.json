@@ -1,7 +1,20 @@
 [
     {
-        "link": "https://metatime.com",
-        "linkText": "metatime.com",
-        "description": "MetaChain Explorer"
+        "title": "Main",
+        "links": [
+            {
+                "text": "MetaChain Explorer",
+                "url": "https://metatime.com"
+            }
+        ]
+    },
+    {
+        "title": "Socials",
+        "links": [
+            {
+                "text": "Github",
+                "url": "https://github.com/Metatime-Technology-Inc"
+            }
+        ]
     }
 ]
