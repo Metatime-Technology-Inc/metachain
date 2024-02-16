@@ -1,5 +1,7 @@
-{
-    "link": "https://metatime.com",
-    "linkText": "metatime.com",
-    "description": "MetaChain Explorer"
-}
+[
+    {
+        "link": "https://metatime.com",
+        "linkText": "metatime.com",
+        "description": "MetaChain Explorer"
+    }
+]
