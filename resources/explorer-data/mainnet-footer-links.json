@@ -1,0 +1,105 @@
+[
+    {
+        "title": "Corporate",
+        "links": [
+            {
+                "text": "About Us",
+                "url": "https://metatime.com/en/about-us"
+            },
+            {
+                "text": "Career",
+                "url": "https://metatime.com/en/careers"
+            },
+            {
+                "text": "Contact",
+                "url": "https://metatime.com/en/contacts"
+            },
+            {
+                "text": "Documents",
+                "url": "https://docs.metatime.com/"
+            },
+            {
+                "text": "Discover",
+                "url": "https://metatime.com/en/discover"
+            },
+            {
+                "text": "Privacy Policy",
+                "url": "https://metatime.com/en/pages/privacy-policy"
+            },
+            {
+                "text": "General Data Protection Policy",
+                "url": "https://metatime.com/en/pages/personal-data-protection-law"
+            },
+            {
+                "text": "Cookie Policy",
+                "url": "https://metatime.com/en/pages/cookie-policy"
+            }
+        ]
+    },
+    {
+        "title": "Products",
+        "links": [
+            {
+                "text": "MetaChain",
+                "url": "https://metatime.com/en/meta-chain"
+            },
+            {
+                "text": "Metatime Coin",
+                "url": "https://metatime.com/en/metatime-coin"
+            },
+            {
+                "text": "MetaExchange",
+                "url": "https://metatime.com/en/exchange"
+            },
+            {
+                "text": "MetaExplorer",
+                "url": "https://explorer.metatime.com/"
+            },
+            {
+                "text": "MetaLaunchpad",
+                "url": "https://metatime.com/en/launchpad"
+            },
+            {
+                "text": "MetaNFT Marketplace",
+                "url": "https://metatime.com/en/meta-nft"
+            },
+            {
+                "text": "MetaRealEstate",
+                "url": "https://metatime.com/en/meta-realestate"
+            },
+            {
+                "text": "MetaWallet",
+                "url": "https://metatime.com/en/meta-wallet"
+            },
+            {
+                "text": "MetaAirdrop",
+                "url": "https://airdrop.metatime.com/"
+            }
+        ]
+    },
+    {
+        "title": "Learn",
+        "links": [
+            {
+                "text": "Dictionary",
+                "url": "https://metatime.com/en/dictionary"
+            },
+            {
+                "text": "Announcements",
+                "url": "https://metatime.com/en/news"
+            },
+            {
+                "text": "Whitepaper",
+                "url": "https://docs.metatime.com/whitepaper"
+            },
+            {
+                "text": "Tokenomics",
+                "url": "https://metatime.com/en/metatime-coin"
+            },
+            {
+                "text": "Roadmap",
+                "url": "https://metatime.com/en/roadmap"
+            }
+        ]
+    }
+]
