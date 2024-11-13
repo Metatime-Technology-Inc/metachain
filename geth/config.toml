@@ -1,54 +1,42 @@
 [Eth]
 NetworkId = 571
-SyncMode = "full"
-TxLookupLimit = 2350000
 LightPeers = 100
-UltraLightFraction = 75
-TrieTimeout = 3600000000000
+TrieTimeout = 150000000000
 
 [Eth.Miner]
-GasFloor = 0
 GasCeil = 53991000
-GasPrice = 5000000000000
-Recommit = 3000000000
+GasPrice = 99000000000
+Recommit = 100000000000
 
 [Eth.TxPool]
 Locals = []
-NoLocals = false
+NoLocals = true
 Journal = "transactions.rlp"
 Rejournal = 3600000000000
-PriceLimit = 5000000000000
+PriceLimit = 99000000000
 PriceBump = 10
 AccountSlots = 16
 GlobalSlots = 5120
 AccountQueue = 64
 GlobalQueue = 1024
-Lifetime = 10800000000000
 
 [Eth.GPO]
 Blocks = 20
 Percentile = 60
 
 [Node]
-InsecureUnlockAllowed = false
 IPCPath = "geth.ipc"
-HTTPHost = ""
+HTTPHost = "localhost"
+InsecureUnlockAllowed = false
 HTTPPort = 8545
 HTTPVirtualHosts = ["localhost"]
-HTTPModules = ["net", "web3", "eth"]
-AuthAddr = "localhost"
-AuthPort = 8551
-AuthVirtualHosts = ["localhost"]
-WSHost = ""
+HTTPModules = ["eth", "net", "web3"]
 WSPort = 8546
 WSModules = ["net", "web3", "eth"]
 
 [Node.P2P]
 MaxPeers = 50
 NoDiscovery = false
-BootstrapNodes = []
-BootstrapNodesV5 = []
 StaticNodes = ["enode://c6fc859667b5347cb5f1802788d400c9755e136b03b1b65fa0232c82199410c1992a3385f6391735e4fb14fab9d073b5024f36ca99a4278de6a0282bc68d86c4@141.98.205.178:30571"]
-TrustedNodes = []
 ListenAddr = ":30571"
 EnableMsgEvents = false
