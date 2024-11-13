@@ -1,42 +1,54 @@
 [Eth]
 NetworkId = 571
+SyncMode = "full"
+TxLookupLimit = 2350000
 LightPeers = 100
-TrieTimeout = 150000000000
+UltraLightFraction = 75
+TrieTimeout = 3600000000000
 
 [Eth.Miner]
+GasFloor = 0
 GasCeil = 53991000
-GasPrice = 99000000000
-Recommit = 100000000000
+GasPrice = 5000000000000
+Recommit = 3000000000
 
 [Eth.TxPool]
 Locals = []
-NoLocals = true
+NoLocals = false
 Journal = "transactions.rlp"
 Rejournal = 3600000000000
-PriceLimit = 99000000000
+PriceLimit = 5000000000000
 PriceBump = 10
 AccountSlots = 16
 GlobalSlots = 5120
 AccountQueue = 64
 GlobalQueue = 1024
+Lifetime = 10800000000000
 
 [Eth.GPO]
 Blocks = 20
 Percentile = 60
 
 [Node]
-IPCPath = "geth.ipc"
-HTTPHost = "localhost"
 InsecureUnlockAllowed = false
+IPCPath = "geth.ipc"
+HTTPHost = ""
 HTTPPort = 8545
 HTTPVirtualHosts = ["localhost"]
-HTTPModules = ["eth", "net", "web3"]
+HTTPModules = ["net", "web3", "eth"]
+AuthAddr = "localhost"
+AuthPort = 8551
+AuthVirtualHosts = ["localhost"]
+WSHost = ""
 WSPort = 8546
 WSModules = ["net", "web3", "eth"]
 
 [Node.P2P]
 MaxPeers = 50
 NoDiscovery = false
-StaticNodes = ["enode://8a68725644b5059684ca84a002edf5c02bee1c75fb44b2cae56daaa31a8549e422cd427b32156b4cfee35d66777b8898ae5cca0b66ad2e26d5abfe426b5c7ed7@101.44.39.247:30571", "enode://eeea9f42807bfec99d24bf22481b5a3e3fe2c067b521c75404f8fbbf7ff210e765cec45632ee2d3dc9fc89d2eeaf691d0136cc537a988867eb4b886cc61daecf@101.44.36.124:30571", "enode://17a94f4efbaa239e39b8e313be34f291916f759fa7936515cb7cabc3645f91c0603e1915c93273a5cca1daf8dc9c5370bdc5ae4b8d023fccd7ba2f73ee7c5e38@101.44.37.126:30571"]
+BootstrapNodes = []
+BootstrapNodesV5 = []
+StaticNodes = ["enode://c6fc859667b5347cb5f1802788d400c9755e136b03b1b65fa0232c82199410c1992a3385f6391735e4fb14fab9d073b5024f36ca99a4278de6a0282bc68d86c4@141.98.205.178:30571"]
+TrustedNodes = []
 ListenAddr = ":30571"
 EnableMsgEvents = false
